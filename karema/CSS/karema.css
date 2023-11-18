@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* ==========================start header ========================== */
+.perant{
+    background: url(/imges=G/photo1700315594.jpeg);
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Jost', sans-serif;
+}
+.perant .container {
+    margin: auto;
+    position: relative;
+    height: calc(100vh - 65px );
+    max-height: calc(100vh - 65px );
+}
+
+.perant .container .header{
+    position:sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 15px;
+}
+.logo{
+    font-size: 18px;
+    background-color: #231f5c;
+    border-radius: 25px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.header .NAVIGATION ul{
+    list-style: none;
+    right: 0px;
+    display: inline-block;
+}
+
+.header .NAVIGATION ul li{
+    display: inline;
+    margin: 0px  15px;
+
+}
+.header .NAVIGATION ul li a{
+    text-decoration: none;
+    font-size:17px;
+    font-weight: bold;
+    color: #27265f;
+}
+.NAVIGATION ul li a:hover {
+    color:  #2bb573;
+   /* border-bottom:  #2bb573 solid 2px; */
+}
+
+/* =============== End Header ============== */
+
+/* =============== Start Landing  ======== */
+
+.container .landng{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top: 25%;
+}
+.container .landng .p-home{
+    padding: 6px;
+    width: 100%;
+    animation-name: Home ;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+a{
+  cursor: pointer;
+}
+
+@keyframes Home {
+
+    0%{
+        opacity: 0;
+        margin-top: 50px
+    }
+
+  100%{
+        opacity: 1;
+    }
+   
+}
+.container .landng .p-home h1{
+    line-height: 1.666;
+    color: #27265f;
+    font-size: 40px;
+    word-spacing: 1;
+    margin-top: 50px;
+    margin-right: 26px;
+    text-align: left;
+}
+.container .landng .p-home h3{
+    color: #27265f;
+
+}
+.container .landng .p-home span{
+    color: #2bb573;
+    font-size: 40px;
+    word-spacing: 1;
+    margin-right: 5px;
+}
+
+.container .landng .p-home a{
+    text-decoration: none;
+    background-color:#c5e0d3;
+    color: #2bb573 ;
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 15 15px;
+    margin-right: 22px;
+    transition: 0.5s;
+    bottom: 30;
+}
+
+.container .landng .p-home .B{
+    right:  19%;
+}
+
+.home-social{
+    margin-left: 70px;
+    position: relative;
+
+}
+.home-social img {
+    width: 100%;
+
+}
+
+
