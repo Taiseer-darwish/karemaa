@@ -10,10 +10,9 @@
     background: url(/imges=G/photo1700315594.jpeg);
     height: 100vh;
     width: 100%;
-    padding: 30px;
+    padding:0px  20px;
     font-family: 'Dancing Script', cursive;
     font-family: 'DM Sans', sans-serif;
-    font-family: 'Jost', sans-serif;
 }
 .perant .container {
     margin: auto;
@@ -21,9 +20,32 @@
     height: calc(100vh - 65px );
     max-height: calc(100vh - 65px );
 }
-
+.perant .container .header-A{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.perant .container .header-A .contact .box{
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    position: relative;
+}
+.header-A .contact .box img{
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20%;
+    left: -20%;
+}
+ .header-A .contact .box span{
+    font-size: 14px;
+    color: #3939429d;
+}
+.header-A .contact .box h3{
+    font-size: 16px;
+    color: #231f5c;
+}
 .perant .container .header{
-    position:sticky;
     top: 0;
     display: flex;
     justify-content: space-between;
@@ -101,8 +123,7 @@ a{
 .container .landng .p-home h1{
     line-height: 1.666;
     color: #27265f;
-    font-size: 40px;
-    word-spacing: 1;
+    font-size: 38px;
     margin-top: 50px;
     margin-right: 26px;
     text-align: left;
@@ -127,7 +148,6 @@ a{
     padding: 15 15px;
     margin-right: 22px;
     transition: 0.5s;
-    bottom: 30;
 }
 
 .container .landng .p-home .B{
@@ -141,7 +161,68 @@ a{
 }
 .home-social img {
     width: 100%;
-
+}
+.home-social .photo{
+    width:400px;
+}
+.footer{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #2bb573;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #ffffff;
+    padding-bottom: 30px;
 }
 
-
+.footer .box{
+    position: relative;
+    margin: 10px;
+}
+.footer .box ::before{
+    content: "";
+    width: 2px;
+    height: 30px;
+    background-color: #ffffff;
+    position: absolute;
+    left: -110px;
+}
+.footer .box span{
+    font-size: 10px;
+    color: #c5e0d3d0;
+}
+.footer .box h3{
+    font-size: 14px;
+}
+.footer .box img{
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20%;
+    left: -45%;
+}
+.footer ul{
+    list-style: none;
+    font-size: 14px;
+    font-weight: normal;
+}
+.footer ul li{
+    margin: 5px;
+}
+.footer img{
+    margin-left: 40px;
+}
+.footer h2{
+    font-size: 12px;
+    margin-left: 15px;
+    position: relative;
+}
+.nav-f{
+    margin: 8px 0px 0px 23px;
+}
+.nav-f a{
+   color: #ffffff;
+   margin: 5px;
+   font-size:18px ;
+}
